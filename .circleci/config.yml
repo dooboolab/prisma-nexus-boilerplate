@@ -48,4 +48,4 @@ jobs:
       - run:
           name: Upload code coverage
           command: |
-            npm run codecov -t e38da5f2-0278-48f5-b13a-2da63cb8bb08
+            npm run codecov -- -t e38da5f2-0278-48f5-b13a-2da63cb8bb08
